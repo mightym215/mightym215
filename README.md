@@ -1,8 +1,6 @@
 ### Hi, I'm Michael 👋
 
-<!-- One or two sentences about you — e.g. school/program, what you're focused on, what kind of role you're looking for. -->
-
-I'm interested in AI engineering — building systems where LLMs call tools and take real actions, not just answer questions.
+Penn State Engineering Scholar (Clark Scholars / CSP, Cohort 4). Interested in AI engineering — I like building systems where LLMs call tools and take real actions, not just answer questions.
 
 ---
 
@@ -29,4 +27,4 @@ A multi-agent system that matches mentors with mentees, drafts grounded first-me
 
 ### 📫 Reach me
 
-<!-- LinkedIn / email / portfolio link -->
+[LinkedIn](https://www.linkedin.com/in/michaelkwasimensah/)
