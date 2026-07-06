@@ -1,6 +1,6 @@
 ### Hi, I'm Michael 👋
 
-Penn State Engineering Scholar (Clark Scholars / CSP, Cohort 4). Interested in AI engineering — I like building systems where LLMs call tools and take real actions, not just answer questions.
+Penn State Engineering Scholar. Interested in AI engineering — I like building systems where LLMs call tools and take real actions, not just answer questions.
 
 ---
 
