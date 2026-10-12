@@ -1,30 +1,35 @@
-### Hi, I'm Michael 👋
+# Hi, I'm Michael 👋
 
-Penn State Engineering Scholar. Interested in AI engineering — I like building systems where LLMs call tools and take real actions, not just answer questions.
+CS senior at Penn State and Customer Success Engineer co-op at IBM. I build AI agents that call real tools and take real actions, and I care most about what makes them trustworthy: grounded answers, real evals, and a human in the loop.
 
----
+🌐 **Portfolio:** [mightym215.github.io](https://mightym215.github.io)
 
-### 🚀 Featured project
+## 🎬 Marquee: AI movie concierge
+[Live demo](https://marquee-rdgp.onrender.com) · [Code](https://github.com/mightym215/marquee)
 
-#### [MatchPoint](https://github.com/mightym215/matchpoint) — Agentic Mentorship-Matching Platform
+Tell it your mood, like *"something like Parasite but funnier, under 2 hours,"* and an agent finds real movies through an MCP server I wrote for TMDB and Letterboxd. I built it because I love movies.
 
-A multi-agent system that matches mentors with mentees, drafts grounded first-meeting agendas, and follows up on pairs that have gone quiet — built to demonstrate real agentic architecture, not a single prompt in a loop.
+- **8 tool MCP server** in TypeScript that works in the app and in any MCP client
+- **Grounded picks:** if the agent recommends a movie it never actually retrieved, the code drops it
+- **21 case eval harness** that checks every pick against real TMDB data for runtime, year, genre, language, rating, and watch history
+- **Live tool call streaming, Letterboxd sync,** and **Blend** for planning movie night with a friend
 
-- **Multi-agent orchestration** on the Anthropic SDK's native tool-calling, no framework — a central dispatcher routes to three specialist agents (matcher, agenda, nudge), each with its own tools and Pydantic-validated structured outputs
-- **A real evaluation harness** — hand-labeled ground truth scored against the production matcher's actual code path, reporting precision@k, accuracy, and score distribution as reproducible metrics, not assumptions
-- **Full observability** — every agent run logs tokens, latency, and a full input/output trace, surfaced in a custom dashboard with hand-built, accessibility-validated data visualizations
-- **Safety by default** — every agent action with an external side effect (sending email, committing a match) requires explicit human approval
+`TypeScript` `MCP` `Claude API` `React` `Express` `Vitest` `Render`
 
-`Python` `FastAPI` `PostgreSQL` `Anthropic SDK` `Next.js/React` `Docker` `GitHub Actions`
+## 🤝 MatchPoint: multi agent mentorship matching
+[Code](https://github.com/mightym215/matchpoint)
 
----
+Matches mentors with mentees, drafts first meeting agendas, and follows up on pairs that have gone quiet.
 
-### 🛠️ Tech I work with
+- **Three specialist agents** (matcher, agenda, nudge) on native tool calling with no framework, each with Pydantic validated outputs
+- **Hand labeled eval harness** scored against the real matcher code, reporting precision@k and accuracy
+- **Full observability:** every run logs tokens, latency, and a full trace in a custom dashboard
+- **Human approval** before anything with a real side effect, like sending an email or committing a match
 
-<!-- Trim/expand this to match what's actually true for you. -->
+`Python` `FastAPI` `PostgreSQL` `Anthropic SDK` `Next.js` `Docker` `GitHub Actions`
 
-`Python` `TypeScript` `FastAPI` `Next.js` `PostgreSQL` `Docker`
+## 🛠️ Tech I work with
+`Python` `TypeScript` `FastAPI` `Express` `React` `Next.js` `PostgreSQL` `Docker` `Kubernetes` `MCP`
 
-### 📫 Reach me
-
-[LinkedIn](https://www.linkedin.com/in/michaelkwasimensah/)
+## 📫 Reach me
+[LinkedIn](https://www.linkedin.com/in/michaelkwasimensah/) · [Portfolio](https://mightym215.github.io) · michaelmensah274@gmail.com
